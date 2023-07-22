@@ -31,3 +31,8 @@ python main.py
 Enter dir of po file: /dir/to/po/in
 Enter dir of po output: /dir/to/po/out
 ```
+
+### Alternative running method
+```
+python main.py /dir/to/po/in /dir/to/po/out
+```
