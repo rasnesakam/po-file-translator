@@ -23,9 +23,9 @@ class SeleniumTranslator:
 
         textIn = self.driver.find_element_by_class_name("er8xn")
         textIn.send_keys(sentence)
-        time.sleep(2)
+        time.sleep(4)
         element = wait.until(
-            EC.presence_of_element_located((By.CLASS_NAME, "J0lOec"))
+            EC.presence_of_element_located((By.CLASS_NAME, "ryNqvb"))
         )
         res = element.text
         textIn.clear()
